@@ -1,0 +1,145 @@
+@import url(https://db.onlinewebfonts.com/c/f1fcc5aed1e20fc0cdb9f8a7573625bd?family=Integral+CF+Regular);
+@font-face {
+    font-family: "Integral CF Regular";
+    src: url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.eot");
+    src: url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.svg#Integral CF Regular")format("svg");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Integral CF Regular";
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------*/
+
+header {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    background-image: url(images/revestimento-ceramico-psi62650-incenor-dd7eb55317-1600_x_1600.jpg);
+    background-size: contain;
+}
+
+img#logo-st {
+    width: 89px;
+    height: 114.5px;
+}
+
+a#login {
+    width: 58.13px;
+    height: 20px;
+    font-size: 18px;
+    color: #cdc9c3;
+    
+}
+
+a.st-btn{
+    background-color: #A11116;
+    width: 288.38px;
+    height: 53.19px;
+    padding: 12px 30px;
+    color: #E8E6E3;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+a.st-btn:hover {
+    background-color: #151718;
+}
+
+/*------------------------------------------------------------------*/
+
+section#first {
+    display: flex;
+    width: 100%;
+    height: 710.05px;
+    background-image: url(images/F3siGd3WcAA9eXk.jpeg);
+    background-size: cover;
+
+}
+
+img#seja-st {
+    width: 560px;
+    height: 161.05px;
+}
+
+span#text {
+    color: #DFDDD9;
+}
+
+a.st-btn-2{
+    background-color: #A11116;
+    width: 288.38px;
+    height: 53.19px;
+    padding: 12px 30px;
+    color: #E8E6E3;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+a.st-btn-2:hover {
+    background-color: #8E0E12;
+}
+
+/*------------------------------------------------------------------*/
+
+section#second {
+    width: 100%;
+    height: 947px;
+    background-image: url(images/bg-transparencia.png);
+    background-size: cover;
+}
+
+a.st-btn-b{
+    background-color: #151718;
+    width: 288.38px;
+    height: 53.19px;
+    padding: 12px 30px;
+    color: #E8E6E3;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a.st-btn-b:hover {
+    background-color: #8E0E12;
+}
+
+/*------------------------------------------------------------------*/
+
+section#third {
+    width: 100%;
+    height: 1626.19px;
+    border: 10px solid black;
+}
+
+/*------------------------------------------------------------------*/
+
+footer {
+    width: 100%;
+    height: 390.23px;
+    border: 10px solid yellow;
+}
