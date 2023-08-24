@@ -36,12 +36,38 @@ header {
     background-size: contain;
 }
 
+h1 {
+    margin: auto;
+    font-size: 20px;
+}
+
+span#st-contagem {
+    
+    font-size: 30px;
+}
+
 img#logo-st {
+    margin: auto;
+    
     width: 89px;
     height: 114.5px;
 }
 
+#container {
+    margin-top: 50px;
+    width: 376.5px;
+    height: 53.19px;
+}
+
+section {
+    margin: auto;
+    width: 1200px;
+    display: flex;
+}
+
 a#login {
+    
+    margin-right: 20px;
     width: 58.13px;
     height: 20px;
     font-size: 18px;
@@ -51,14 +77,13 @@ a#login {
 
 a.st-btn{
     background-color: #A11116;
-    width: 288.38px;
-    height: 53.19px;
     padding: 12px 30px;
     color: #E8E6E3;
     font-style: italic;
     font-size: 18px;
     font-weight: bolder;
     text-decoration: none;
+    height: 100%;
 
 }
 
@@ -70,6 +95,7 @@ a.st-btn:hover {
 
 section#first {
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 710.05px;
     background-image: url(images/F3siGd3WcAA9eXk.jpeg);
@@ -78,24 +104,46 @@ section#first {
 }
 
 img#seja-st {
+    margin-top: 130px;
+    margin-left: 210px;
     width: 560px;
     height: 161.05px;
 }
 
 span#text {
+    width: 682px;
+    margin-left: 200px;
+    margin-top: 10px;
+    display: inline;
+    font-size: 21px;
     color: #DFDDD9;
 }
 
+span#color {
+    color: #FF8446;
+}
+
 a.st-btn-2{
+    margin-top: 40px;
+    margin-left: 200px;
     background-color: #A11116;
-    width: 288.38px;
-    height: 53.19px;
+    width: 250px;
+    height: 49px;
+    text-align: center;
     padding: 12px 30px;
     color: #E8E6E3;
     font-style: italic;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bolder;
     text-decoration: none;
+    
+
+}
+
+span#text2 {
+    position: relative;
+    top: 30%;
+    left: 1%;
 
 }
 
@@ -106,10 +154,33 @@ a.st-btn-2:hover {
 /*------------------------------------------------------------------*/
 
 section#second {
+    display: block;
     width: 100%;
     height: 947px;
     background-image: url(images/bg-transparencia.png);
     background-size: cover;
+}
+
+#container2 {
+    padding-top: 225px;
+}
+
+p.text3 {
+    text-align: center;
+    padding: 25px;
+    font-size: 26px;
+    font-family: "D-DIN";
+    color: #E8E6E3;
+}
+
+p#last-line {
+    margin-top: 111px;
+}
+
+#container3 {
+    width: 500px;
+    margin-left: 541px;
+    margin-top: 106px;
 }
 
 a.st-btn-b{
