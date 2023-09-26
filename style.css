@@ -39,11 +39,15 @@ header {
 h1 {
     margin: auto;
     font-size: 20px;
+    font-weight: 100;
+    
 }
 
 span#st-contagem {
-    
     font-size: 30px;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-weight: 900;
 }
 
 img#logo-st {
@@ -106,33 +110,40 @@ section#first {
 }
 
 img#seja-st {
-    margin-top: 130px;
-    margin-left: 210px;
+    margin-top: 141px;
+    margin-left: 474px;
+    
     width: 560px;
-    height: 161.05px;
+    
+}
+
+#span-text {
+    margin-top: 29px;
 }
 
 span#text {
-    width: 682px;
-    margin-left: 200px;
-    margin-top: 10px;
-    display: inline;
+    width: 900px;
+    text-shadow: 0.1em 0.1em 0.2em black;
     font-size: 21px;
     color: #DFDDD9;
+    font-weight: bolder;
+    display: grid;
+    justify-content: start;
+    grid-gap: 40px;
+    padding-left: 426px;
 }
 
 span#color {
-    color: #FF8446;
+    color: #B11116;
 }
 
 a.st-btn-2{
-    margin-top: 40px;
-    margin-left: 200px;
+    margin-top: -26px;
+    margin-left: 427px;
     background-color: #A11116;
     width: 250px;
     height: 49px;
     text-align: center;
-    padding: 12px 30px;
     color: #E8E6E3;
     font-style: italic;
     font-size: 15px;
@@ -238,11 +249,13 @@ section#third {
 }
 
 #tri-morum, #tri-brasi {
+    border: none;
+    border-radius: 8px;
     font-size: 18px;
     background-color: #B11116;
     color: white;
     height: 51px;
-    width: 257;
+    width: 257px;
     
 }
 
@@ -252,5 +265,6 @@ section#third {
 footer {
     width: 100%;
     height: 390.23px;
-    border: 10px solid yellow;
+    background-color: black;
+    background-image: url(images/footer.png);
 }
